@@ -5,6 +5,7 @@
 // ==============================================================
 
 `timescale 1 ns / 1 ps 
+`include "p2p_250mhz_regslice_both.sv"
 
 (* CORE_GENERATION_INFO="p2p_250mhz_p2p_250mhz,hls_ip_2023_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcvu5p-flva2104-1-e,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=4.430200,HLS_SYN_LAT=2,HLS_SYN_TPT=none,HLS_SYN_MEM=0,HLS_SYN_DSP=0,HLS_SYN_FF=118,HLS_SYN_LUT=321,HLS_VERSION=2023_2}" *)
 
