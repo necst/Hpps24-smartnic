@@ -9,3 +9,10 @@
 ```
 3. Inside the `plugin/p2p` substitute the `p2p_250mhz.sv` file with the generated one, and add the `p2p_250mhz_regslice_both.sv` file.
 4. Inside the `plugin/p2p/box_250mhz` folder, substitute the `user_plugin_250mhz_inst.vh` file with the provided one.
+
+## How to program the FPGA
+This instructions are meant to be used with the script provided by OpenNIC-shell. As the program_fpga.sh script seems to fail because of the program_fpga.tcl, here are some instructions to fix it.
+1. Move into open-nic-shell/script
+2. Inside board_settings, edit the file of the corresponding board (au250.tcl in this example)
+3. Add `set hw_device xcu250_0`, where `xcu250_0` is the device name
+4. Now run program_fpga.sh
