@@ -1,4 +1,7 @@
 # Hpps24-smartnic
+## Overview
+
+Welcome to the Hpps24 SmartNIC repository! This project was developed as part of the High Performance Processors and Systems course. The primary goal was to port the SmartNIC Enso and create a packet filtering module that analyzes MAC addresses. This module is integrated into AMD's OpenNIC framework, enhancing its capabilities for network management and performance.
 
 ## How to integrate the custom plugin into open-nic-shell
 
